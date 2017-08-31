@@ -69,8 +69,8 @@
     <Reference Include="Proggasoft.Mvc, Version=2.0.6364.20014, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Proggasoft.Mvc.4.0.0.0\lib\net461\Proggasoft.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Proggasoft.Utility, Version=2.0.5220.16345, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Proggasoft.Utility.2.0.0\lib\net45\Proggasoft.Utility.dll</HintPath>
+    <Reference Include="Proggasoft.Utility, Version=2.0.6364.20012, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Proggasoft.Utility.4.0.0.0\lib\net461\Proggasoft.Utility.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

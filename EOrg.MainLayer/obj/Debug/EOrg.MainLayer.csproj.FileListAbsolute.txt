@@ -1,0 +1,14 @@
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\bin\Debug\EOrg.MainLayer.exe.config
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\bin\Debug\EOrg.MainLayer.exe
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\bin\Debug\EOrg.MainLayer.pdb
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer.csprojResolveAssemblyReference.cache
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\MainWindow.g.cs
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\App.g.cs
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer_MarkupCompile.cache
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer_MarkupCompile.lref
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\MainWindow.baml
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer.g.resources
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer.Properties.Resources.resources
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer.csproj.GenerateResource.Cache
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer.exe
+C:\Users\Jaber\Desktop\EOrg\EOrg.MainLayer\obj\Debug\EOrg.MainLayer.pdb
