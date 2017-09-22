@@ -17,6 +17,7 @@ namespace EOrg.Core.Shop
         public Guid SubCategoryID { get; set; }
         public virtual Specification Specification { get; set; }
         public virtual List<CustomField> OtherField { get; set; }
+        public virtual List<ColorItem> Color { get; set; }
         public bool EMIAvailable { get; set; }
         public DateTime CreatedOn { get; set; }
         [Required]

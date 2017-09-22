@@ -153,12 +153,18 @@
     <Compile Include="Migrations\201709221649406_shop.Designer.cs">
       <DependentUpon>201709221649406_shop.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709221715307_color.cs" />
+    <Compile Include="Migrations\201709221715307_color.Designer.cs">
+      <DependentUpon>201709221715307_color.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shop\Brand.cs" />
     <Compile Include="Shop\Category.cs" />
+    <Compile Include="Shop\Color.cs" />
     <Compile Include="Shop\CustomField.cs" />
     <Compile Include="Shop\Product.cs" />
+    <Compile Include="Shop\ColorItem.cs" />
     <Compile Include="Shop\Specification.cs" />
     <Compile Include="Shop\SubCategory.cs" />
   </ItemGroup>
@@ -184,6 +190,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709221649406_shop.resx">
       <DependentUpon>201709221649406_shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709221715307_color.resx">
+      <DependentUpon>201709221715307_color.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

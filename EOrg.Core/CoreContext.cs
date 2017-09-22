@@ -23,6 +23,7 @@ namespace EOrg.Core
         public virtual DbSet<Brand> Brand { get; set; }
         public virtual DbSet<Category> Category { get; set; }
         public virtual DbSet<SubCategory> SubCategory { get; set; }
+        public virtual DbSet<Color> Color { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

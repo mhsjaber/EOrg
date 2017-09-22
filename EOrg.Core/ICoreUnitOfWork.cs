@@ -11,6 +11,7 @@ namespace EOrg.Core
         IGenericRepository<Brand> BrandRepository { get; }
         IGenericRepository<SubCategory> SubCategoryRepository { get; }
         IGenericRepository<Category> CategoryRepository { get; }
+        IGenericRepository<Color> ColorRepository { get; }
         void Save();
     }
 }

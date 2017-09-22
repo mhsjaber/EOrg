@@ -83,6 +83,19 @@ namespace EOrg.Core
             }
         }
 
+        private IGenericRepository<Color> colorRepository;
+        public IGenericRepository<Color> ColorRepository
+        {
+            get
+            {
+                if (this.colorRepository == null)
+                {
+                    this.colorRepository = new GenericRepository<Color>(context, dbCommandExecutionService, dbCommandFactory);
+                }
+                return colorRepository;
+            }
+        }
+
         public void Save()
         {
             context.SaveChanges();
