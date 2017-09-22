@@ -138,7 +138,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="CoreModule.cs" />
+    <Compile Include="CoreUnitOfWork.cs" />
+    <Compile Include="ICoreUnitOfWork.cs" />
+    <Compile Include="Membership\Customer.cs" />
     <Compile Include="Membership\IdentityModels.cs" />
+    <Compile Include="CoreContext.cs" />
+    <Compile Include="Migrations\201709220918240_customer.cs" />
+    <Compile Include="Migrations\201709220918240_customer.Designer.cs">
+      <DependentUpon>201709220918240_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +167,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709220918240_customer.resx">
+      <DependentUpon>201709220918240_customer.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
