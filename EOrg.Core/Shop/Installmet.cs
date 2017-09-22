@@ -8,6 +8,7 @@ namespace EOrg.Core.Shop
     {
         public Guid SellID { get; set; }
         public int PaidAmount { get; set; }
+        public string Remark { get; set; }
         public DateTime CreatedOn { get; set; }
         [Required]
         public string CreatedBy { get; set; }
