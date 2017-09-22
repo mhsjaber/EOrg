@@ -18,37 +18,6 @@ namespace EOrg.Web.Controllers
 
         public ActionResult Index()
         {
-            var ss = new Customer()
-            {
-                CreatedOn = DateTime.Now,
-                DateOfBirth = DateTime.Now,
-                FamilyMembers =1,
-                FatherName = "Nijam Uddin",
-                FullName = "Jaber Kibria",
-                MonthlyExpenditure = 10000,
-                MonthlyIncome = 15000,
-                MotherName = "Sharifun Nahar",
-                NIDNumber = "19970003231232",
-                Occupation = "Software Engineer",
-                PermanentAddress = new Address()
-                {
-                    District = "Satkhira",
-                    Thana = "Debhata",
-                    PostOffice = "Gurugram",
-                    Village = "Bohera"
-                },
-                PresentAddress = new Address()
-                {
-                    District = "Satkhira",
-                    Thana = "Debhata",
-                    PostOffice = "Gurugram",
-                    Village = "Bohera"
-                },
-                UpdatedOn = DateTime.Now
-            };
-            coreUnitOfWork.CustomerRepository.Insert(ss);
-            coreUnitOfWork.Save();
-            var ff = coreUnitOfWork.CustomerRepository.Get();
             return View();
         }
 
