@@ -14,7 +14,8 @@ namespace EOrg.Core.Shop
         public string Name { get; set; }
         [Required]
         public string Model { get; set; }
-        public int Price { get; set; }
+        public int BuyPrice { get; set; }
+        public int SellPrice { get; set; }
         public Guid SubCategoryID { get; set; }
         public virtual Specification Specification { get; set; }
         public virtual List<CustomField> OtherField { get; set; }
