@@ -14,10 +14,12 @@ namespace EOrg.Core.Shop
         public string Name { get; set; }
         [Required]
         public string Model { get; set; }
+        public int Price { get; set; }
         public Guid SubCategoryID { get; set; }
         public virtual Specification Specification { get; set; }
         public virtual List<CustomField> OtherField { get; set; }
         public virtual List<ColorItem> Color { get; set; }
+        public virtual List<EMIType> EMIType { get; set; }
         public bool EMIAvailable { get; set; }
         public DateTime CreatedOn { get; set; }
         [Required]
