@@ -164,6 +164,7 @@
     <Compile Include="Shop\Color.cs" />
     <Compile Include="Shop\CustomField.cs" />
     <Compile Include="Shop\EMIType.cs" />
+    <Compile Include="Shop\Installmet.cs" />
     <Compile Include="Shop\PaymentType.cs" />
     <Compile Include="Shop\Product.cs" />
     <Compile Include="Shop\ColorItem.cs" />
