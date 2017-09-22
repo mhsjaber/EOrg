@@ -1,10 +1,7 @@
 ﻿using EOrg.Core.Membership;
+using EOrg.Core.Shop;
 using Proggasoft.Data.Hybrid;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EOrg.Core
 {
@@ -31,6 +28,58 @@ namespace EOrg.Core
                     this.customerRepository = new GenericRepository<Customer>(context, dbCommandExecutionService, dbCommandFactory);
                 }
                 return customerRepository;
+            }
+        }
+
+        private IGenericRepository<Product> productRepository;
+        public IGenericRepository<Product> ProductRepository
+        {
+            get
+            {
+                if (this.productRepository == null)
+                {
+                    this.productRepository = new GenericRepository<Product>(context, dbCommandExecutionService, dbCommandFactory);
+                }
+                return productRepository;
+            }
+        }
+
+        private IGenericRepository<Brand> brandRepository;
+        public IGenericRepository<Brand> BrandRepository
+        {
+            get
+            {
+                if (this.brandRepository == null)
+                {
+                    this.brandRepository = new GenericRepository<Brand>(context, dbCommandExecutionService, dbCommandFactory);
+                }
+                return brandRepository;
+            }
+        }
+
+        private IGenericRepository<Category> categoryRepository;
+        public IGenericRepository<Category> CategoryRepository
+        {
+            get
+            {
+                if (this.categoryRepository == null)
+                {
+                    this.categoryRepository = new GenericRepository<Category>(context, dbCommandExecutionService, dbCommandFactory);
+                }
+                return categoryRepository;
+            }
+        }
+
+        private IGenericRepository<SubCategory> subCategoryRepository;
+        public IGenericRepository<SubCategory> SubCategoryRepository
+        {
+            get
+            {
+                if (this.subCategoryRepository == null)
+                {
+                    this.subCategoryRepository = new GenericRepository<SubCategory>(context, dbCommandExecutionService, dbCommandFactory);
+                }
+                return subCategoryRepository;
             }
         }
 

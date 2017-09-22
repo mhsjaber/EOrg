@@ -1,10 +1,12 @@
 ﻿using Proggasoft.Data.Hybrid;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace EOrg.Core.Membership
 {
     public class Customer : Entity
     {
+        [Required]
         public string FullName { get; set; }
         public string FatherName { get; set; }
         public string MotherName { get; set; }
@@ -19,8 +21,10 @@ namespace EOrg.Core.Membership
         public virtual Address PresentAddress { get; set; }
         public virtual Address PermanentAddress { get; set; }
         public DateTime CreatedOn { get; set; }
+        [Required]
         public string CreatedBy { get; set; }
         public DateTime UpdatedOn { get; set; }
+        [Required]
         public string UpdatedBy { get; set; }
     }
 }

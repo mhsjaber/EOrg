@@ -1,4 +1,5 @@
 ﻿using EOrg.Core.Membership;
+using EOrg.Core.Shop;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -18,6 +19,10 @@ namespace EOrg.Core
         }
 
         public virtual DbSet<Customer> Customer { get; set; }
+        public virtual DbSet<Product> Product { get; set; }
+        public virtual DbSet<Brand> Brand { get; set; }
+        public virtual DbSet<Category> Category { get; set; }
+        public virtual DbSet<SubCategory> SubCategory { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
