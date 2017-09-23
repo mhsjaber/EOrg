@@ -8,7 +8,7 @@ namespace EOrg.Core.Shop
     {
         public Guid ProductID { get; set; }
         public Guid CustomerID { get; set; }
-        public Guid ColorID { get; set; }
+        public Guid? ColorID { get; set; }
         public int Quantity { get; set; }
         public int BuyPrice { get; set; }
         public int SellPrice { get; set; }

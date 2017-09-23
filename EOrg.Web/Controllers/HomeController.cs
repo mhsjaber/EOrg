@@ -1,25 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using EOrg.Core;
-using EOrg.Core.Membership;
+using EOrg.Core.Shop;
 
 namespace EOrg.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private ICoreUnitOfWork coreUnitOfWork;
-        public HomeController(ICoreUnitOfWork coreUnitOfWork)
-        {
-            this.coreUnitOfWork = coreUnitOfWork;
-        }
-
-        public ActionResult Index()
-        {
-            return View();
-        }
+        public ActionResult Index() => View();
 
         public ActionResult About()
         {
