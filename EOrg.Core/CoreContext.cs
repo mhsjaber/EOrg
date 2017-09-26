@@ -1,12 +1,7 @@
 ﻿using EOrg.Core.Membership;
 using EOrg.Core.Shop;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EOrg.Core
 {
@@ -25,7 +20,7 @@ namespace EOrg.Core
         public virtual DbSet<SubCategory> SubCategory { get; set; }
         public virtual DbSet<Color> Color { get; set; }
         public virtual DbSet<Sell> Sell { get; set; }
-        public virtual DbSet<Installmet> Installmet { get; set; }
+        public virtual DbSet<Installment> Installmet { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

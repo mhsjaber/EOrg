@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EOrg.Core.Shop
 {
-    public class Installmet : Entity
+    public class Installment : Entity
     {
         public Guid SellId { get; set; }
         public int PaidAmount { get; set; }

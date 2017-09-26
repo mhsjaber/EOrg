@@ -141,7 +141,10 @@
     <Compile Include="Address.cs" />
     <Compile Include="CoreModule.cs" />
     <Compile Include="CoreUnitOfWork.cs" />
+    <Compile Include="CoreUnitOfWorkFactory.cs" />
     <Compile Include="ICoreUnitOfWork.cs" />
+    <Compile Include="ICoreUnitOfWorkFactory.cs" />
+    <Compile Include="IServerTime.cs" />
     <Compile Include="Membership\Customer.cs" />
     <Compile Include="Membership\IdentityModels.cs" />
     <Compile Include="CoreContext.cs" />
@@ -197,14 +200,19 @@
     <Compile Include="Migrations\201709261511143_update_properties.Designer.cs">
       <DependentUpon>201709261511143_update_properties.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709261634368_update_properties1.cs" />
+    <Compile Include="Migrations\201709261634368_update_properties1.Designer.cs">
+      <DependentUpon>201709261634368_update_properties1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerTime.cs" />
     <Compile Include="Shop\Brand.cs" />
     <Compile Include="Shop\Category.cs" />
     <Compile Include="Shop\Color.cs" />
     <Compile Include="Shop\CustomField.cs" />
     <Compile Include="Shop\EmiType.cs" />
-    <Compile Include="Shop\Installmet.cs" />
+    <Compile Include="Shop\Installment.cs" />
     <Compile Include="Shop\PaymentType.cs" />
     <Compile Include="Shop\Product.cs" />
     <Compile Include="Shop\ProductQuantity.cs" />
@@ -267,6 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709261511143_update_properties.resx">
       <DependentUpon>201709261511143_update_properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709261634368_update_properties1.resx">
+      <DependentUpon>201709261634368_update_properties1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

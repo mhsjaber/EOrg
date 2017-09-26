@@ -4,7 +4,7 @@ namespace EOrg.Core.Shop
 {
     public class EmiType : Entity
     {
-        public int Price { get; set; }
-        public int Installment { get; set; }
+        public int PayAmount { get; set; }
+        public int TotalInstallment { get; set; }
     }
 }

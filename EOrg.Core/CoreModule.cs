@@ -2,11 +2,6 @@
 using Proggasoft.Data.Hybrid;
 using Proggasoft.Diagnosis;
 using Proggasoft.Utility;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EOrg.Core
 {
@@ -21,6 +16,7 @@ namespace EOrg.Core
 
             Bind<ILogHelperFactory>().To<Log4NetLogHelperFactory>().InSingletonScope();
             Bind<ICoreUnitOfWork>().To<CoreUnitOfWork>();
+            Bind<IServerTime>().To<ServerTime>();
             Bind<CoreContext>().ToSelf();
         }
     }
