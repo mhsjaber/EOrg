@@ -8,7 +8,7 @@ namespace EOrg.Core.Shop
     {
         [Required]
         public string Name { get; set; }
-        public Guid CategoryID { get; set; }
+        public Guid CategoryId { get; set; }
         public DateTime CreatedOn { get; set; }
         [Required]
         public string CreatedBy { get; set; }

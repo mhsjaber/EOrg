@@ -169,17 +169,45 @@
     <Compile Include="Migrations\201709231312082_table_name_change_ProductColor.Designer.cs">
       <DependentUpon>201709231312082_table_name_change_ProductColor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709241829497_temporary_test_1.cs" />
+    <Compile Include="Migrations\201709241829497_temporary_test_1.Designer.cs">
+      <DependentUpon>201709241829497_temporary_test_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709241831479_temporary_test_1_remove.cs" />
+    <Compile Include="Migrations\201709241831479_temporary_test_1_remove.Designer.cs">
+      <DependentUpon>201709241831479_temporary_test_1_remove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709241843014_property_modified.cs" />
+    <Compile Include="Migrations\201709241843014_property_modified.Designer.cs">
+      <DependentUpon>201709241843014_property_modified.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709241849113_property_modified1.cs" />
+    <Compile Include="Migrations\201709241849113_property_modified1.Designer.cs">
+      <DependentUpon>201709241849113_property_modified1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709241851459_property_modified2.cs" />
+    <Compile Include="Migrations\201709241851459_property_modified2.Designer.cs">
+      <DependentUpon>201709241851459_property_modified2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709241854491_property_modified3.cs" />
+    <Compile Include="Migrations\201709241854491_property_modified3.Designer.cs">
+      <DependentUpon>201709241854491_property_modified3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709261511143_update_properties.cs" />
+    <Compile Include="Migrations\201709261511143_update_properties.Designer.cs">
+      <DependentUpon>201709261511143_update_properties.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shop\Brand.cs" />
     <Compile Include="Shop\Category.cs" />
     <Compile Include="Shop\Color.cs" />
     <Compile Include="Shop\CustomField.cs" />
-    <Compile Include="Shop\EMIType.cs" />
+    <Compile Include="Shop\EmiType.cs" />
     <Compile Include="Shop\Installmet.cs" />
     <Compile Include="Shop\PaymentType.cs" />
     <Compile Include="Shop\Product.cs" />
-    <Compile Include="Shop\ProductColor.cs" />
+    <Compile Include="Shop\ProductQuantity.cs" />
     <Compile Include="Shop\Sell.cs" />
     <Compile Include="Shop\Specification.cs" />
     <Compile Include="Shop\SubCategory.cs" />
@@ -218,6 +246,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709231312082_table_name_change_ProductColor.resx">
       <DependentUpon>201709231312082_table_name_change_ProductColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709241829497_temporary_test_1.resx">
+      <DependentUpon>201709241829497_temporary_test_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709241831479_temporary_test_1_remove.resx">
+      <DependentUpon>201709241831479_temporary_test_1_remove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709241843014_property_modified.resx">
+      <DependentUpon>201709241843014_property_modified.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709241849113_property_modified1.resx">
+      <DependentUpon>201709241849113_property_modified1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709241851459_property_modified2.resx">
+      <DependentUpon>201709241851459_property_modified2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709241854491_property_modified3.resx">
+      <DependentUpon>201709241854491_property_modified3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709261511143_update_properties.resx">
+      <DependentUpon>201709261511143_update_properties.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

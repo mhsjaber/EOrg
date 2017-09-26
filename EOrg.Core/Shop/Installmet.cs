@@ -6,7 +6,7 @@ namespace EOrg.Core.Shop
 {
     public class Installmet : Entity
     {
-        public Guid SellID { get; set; }
+        public Guid SellId { get; set; }
         public int PaidAmount { get; set; }
         public string Remark { get; set; }
         public DateTime CreatedOn { get; set; }

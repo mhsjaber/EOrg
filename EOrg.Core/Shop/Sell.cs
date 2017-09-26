@@ -6,14 +6,14 @@ namespace EOrg.Core.Shop
 {
     public class Sell : Entity
     {
-        public Guid ProductID { get; set; }
-        public Guid CustomerID { get; set; }
-        public Guid? ColorID { get; set; }
+        public Guid ProductId { get; set; }
+        public Guid CustomerId { get; set; }
+        public Guid? ColorId { get; set; }
         public int Quantity { get; set; }
         public int BuyPrice { get; set; }
         public int SellPrice { get; set; }
         public PaymentType PayType { get; set; }
-        public Guid? EMITypeID { get; set; }
+        public Guid? EmiTypeId { get; set; }
         public DateTime CreatedOn { get; set; }
         [Required]
         public string CreatedBy { get; set; }

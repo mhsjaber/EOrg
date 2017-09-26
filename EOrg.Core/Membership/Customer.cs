@@ -12,7 +12,7 @@ namespace EOrg.Core.Membership
         public string MotherName { get; set; }
         public string SpouseName { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public string NIDNumber { get; set; }
+        public string NidNumber { get; set; }
         public string Occupation { get; set; }
         public string SpouseOccupation { get; set; }
         public int MonthlyIncome { get; set; }

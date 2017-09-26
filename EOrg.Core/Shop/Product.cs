@@ -2,9 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EOrg.Core.Shop
 {
@@ -16,12 +13,12 @@ namespace EOrg.Core.Shop
         public string Model { get; set; }
         public int BuyPrice { get; set; }
         public int SellPrice { get; set; }
-        public Guid SubCategoryID { get; set; }
+        public Guid SubCategoryId { get; set; }
         public virtual Specification Specification { get; set; }
         public virtual List<CustomField> OtherField { get; set; }
-        public virtual List<ProductColor> Color { get; set; }
-        public virtual List<EMIType> EMIType { get; set; }
-        public bool EMIAvailable { get; set; }
+        public virtual List<ProductQuantity> Quantity { get; set; }
+        public virtual List<EmiType> EmiType { get; set; }
+        public bool EmiAvailable { get; set; }
         public DateTime CreatedOn { get; set; }
         [Required]
         public string CreatedBy { get; set; }

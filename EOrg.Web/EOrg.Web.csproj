@@ -83,8 +83,9 @@
     <Reference Include="Proggasoft.Data, Version=2.0.6364.20013, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Proggasoft.Data.4.0.0.0\lib\net461\Proggasoft.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Proggasoft.Data.Hybrid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Proggasoft.Data.Hybrid">
       <HintPath>..\packages\Proggasoft.Data.Hybrid.4.0.0.0\lib\net461\Proggasoft.Data.Hybrid.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Proggasoft.Diagnosis, Version=2.0.6364.20013, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Proggasoft.Diagnosis.4.0.0.0\lib\net461\Proggasoft.Diagnosis.dll</HintPath>

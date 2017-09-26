@@ -3,9 +3,9 @@ using System;
 
 namespace EOrg.Core.Shop
 {
-    public class ProductColor : Entity
+    public class ProductQuantity : Entity
     {
-        public Guid? ColorID { get; set; }
+        public Guid? ColorId { get; set; }
         public int Quantity { get; set; }
     }
 }
