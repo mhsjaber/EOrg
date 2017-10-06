@@ -148,61 +148,13 @@
     <Compile Include="Membership\Customer.cs" />
     <Compile Include="Membership\IdentityModels.cs" />
     <Compile Include="CoreContext.cs" />
-    <Compile Include="Migrations\201709220918240_customer.cs" />
-    <Compile Include="Migrations\201709220918240_customer.Designer.cs">
-      <DependentUpon>201709220918240_customer.cs</DependentUpon>
+    <Compile Include="Migrations\201710060458006_init.cs" />
+    <Compile Include="Migrations\201710060458006_init.Designer.cs">
+      <DependentUpon>201710060458006_init.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201709221649406_shop.cs" />
-    <Compile Include="Migrations\201709221649406_shop.Designer.cs">
-      <DependentUpon>201709221649406_shop.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709221715307_color.cs" />
-    <Compile Include="Migrations\201709221715307_color.Designer.cs">
-      <DependentUpon>201709221715307_color.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709221828346_installment.cs" />
-    <Compile Include="Migrations\201709221828346_installment.Designer.cs">
-      <DependentUpon>201709221828346_installment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709221831169_installment_1.cs" />
-    <Compile Include="Migrations\201709221831169_installment_1.Designer.cs">
-      <DependentUpon>201709221831169_installment_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709231312082_table_name_change_ProductColor.cs" />
-    <Compile Include="Migrations\201709231312082_table_name_change_ProductColor.Designer.cs">
-      <DependentUpon>201709231312082_table_name_change_ProductColor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709241829497_temporary_test_1.cs" />
-    <Compile Include="Migrations\201709241829497_temporary_test_1.Designer.cs">
-      <DependentUpon>201709241829497_temporary_test_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709241831479_temporary_test_1_remove.cs" />
-    <Compile Include="Migrations\201709241831479_temporary_test_1_remove.Designer.cs">
-      <DependentUpon>201709241831479_temporary_test_1_remove.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709241843014_property_modified.cs" />
-    <Compile Include="Migrations\201709241843014_property_modified.Designer.cs">
-      <DependentUpon>201709241843014_property_modified.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709241849113_property_modified1.cs" />
-    <Compile Include="Migrations\201709241849113_property_modified1.Designer.cs">
-      <DependentUpon>201709241849113_property_modified1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709241851459_property_modified2.cs" />
-    <Compile Include="Migrations\201709241851459_property_modified2.Designer.cs">
-      <DependentUpon>201709241851459_property_modified2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709241854491_property_modified3.cs" />
-    <Compile Include="Migrations\201709241854491_property_modified3.Designer.cs">
-      <DependentUpon>201709241854491_property_modified3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709261511143_update_properties.cs" />
-    <Compile Include="Migrations\201709261511143_update_properties.Designer.cs">
-      <DependentUpon>201709261511143_update_properties.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709261634368_update_properties1.cs" />
-    <Compile Include="Migrations\201709261634368_update_properties1.Designer.cs">
-      <DependentUpon>201709261634368_update_properties1.cs</DependentUpon>
+    <Compile Include="Migrations\201710060500335_init1.cs" />
+    <Compile Include="Migrations\201710060500335_init1.Designer.cs">
+      <DependentUpon>201710060500335_init1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -217,7 +169,6 @@
     <Compile Include="Shop\Product.cs" />
     <Compile Include="Shop\ProductQuantity.cs" />
     <Compile Include="Shop\Sell.cs" />
-    <Compile Include="Shop\Specification.cs" />
     <Compile Include="Shop\SubCategory.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -237,47 +188,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201709220918240_customer.resx">
-      <DependentUpon>201709220918240_customer.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710060458006_init.resx">
+      <DependentUpon>201710060458006_init.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709221649406_shop.resx">
-      <DependentUpon>201709221649406_shop.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709221715307_color.resx">
-      <DependentUpon>201709221715307_color.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709221828346_installment.resx">
-      <DependentUpon>201709221828346_installment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709221831169_installment_1.resx">
-      <DependentUpon>201709221831169_installment_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709231312082_table_name_change_ProductColor.resx">
-      <DependentUpon>201709231312082_table_name_change_ProductColor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709241829497_temporary_test_1.resx">
-      <DependentUpon>201709241829497_temporary_test_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709241831479_temporary_test_1_remove.resx">
-      <DependentUpon>201709241831479_temporary_test_1_remove.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709241843014_property_modified.resx">
-      <DependentUpon>201709241843014_property_modified.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709241849113_property_modified1.resx">
-      <DependentUpon>201709241849113_property_modified1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709241851459_property_modified2.resx">
-      <DependentUpon>201709241851459_property_modified2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709241854491_property_modified3.resx">
-      <DependentUpon>201709241854491_property_modified3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709261511143_update_properties.resx">
-      <DependentUpon>201709261511143_update_properties.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709261634368_update_properties1.resx">
-      <DependentUpon>201709261634368_update_properties1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710060500335_init1.resx">
+      <DependentUpon>201710060500335_init1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,12 +13,13 @@ namespace EOrg.Core.Shop
         public string Model { get; set; }
         public int Price { get; set; }
         public Guid SubCategoryId { get; set; }
-        public virtual Specification Specification { get; set; }
-        public virtual List<CustomField> OtherField { get; set; }
+        public string Details { get; set; }
+        public string Size { get; set; }
         public virtual List<ProductQuantity> Quantity { get; set; }
         public virtual List<EmiType> Emi { get; set; }
         public bool EmiAvailable { get; set; }
         public DateTime CreatedOn { get; set; }
+        public virtual Brand Manufacturer { get; set; }
         [Required]
         public string CreatedBy { get; set; }
         public DateTime UpdatedOn { get; set; }

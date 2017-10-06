@@ -36,21 +36,6 @@ namespace EOrg.Web.Models
                     Model = model.Model,
                     SubCategoryId = model.SubCategoryId,
                     EmiAvailable = model.TotalInstallment != null,
-                    Specification = new Specification()
-                    {
-                        Weight = model.Weight,
-                        DisplaySize = model.DisplaySize,
-                        FrontCamera = model.FrontCamera,
-                        BackCamera = model.BackCamera,
-                        CpuSpeed = model.CpuSpeed,
-                        Ram = model.Ram,
-                        Rom = model.Rom,
-                        Battery = model.Battery,
-                        SimCard = model.SimCard,
-                        Processor = model.Processor,
-                        Warranty = model.Warranty,
-                        BrandId = model.BrandId
-                    },
                     CreatedOn = _serverTime.CurrentDateTime,
                     CreatedBy = HttpContext.Current.User.Identity.GetUserId(),
                     UpdatedOn = _serverTime.CurrentDateTime,
@@ -106,17 +91,6 @@ namespace EOrg.Web.Models
         public int BuyPrice { get; set; }
         public int SellPrice { get; set; }
         public Guid SubCategoryId { get; set; }
-        public double? Weight { get; set; }
-        public double? DisplaySize { get; set; }
-        public double? FrontCamera { get; set; }
-        public double? BackCamera { get; set; }
-        public double? CpuSpeed { get; set; }
-        public double? Ram { get; set; }
-        public double? Rom { get; set; }
-        public string Battery { get; set; }
-        public string SimCard { get; set; }
-        public string Processor { get; set; }
-        public string Warranty { get; set; }
         public Guid BrandId { get; set; }
         public int[] ItemQuantity { get; set; }
         public Guid?[] ColorId { get; set; }
@@ -128,7 +102,6 @@ namespace EOrg.Web.Models
         public DateTime UpdatedOn { get; set; }
         public string UpdatedBy { get; set; }
 
-        public virtual Specification Specification { get; set; }
         public virtual List<CustomField> OtherField { get; set; }
         public virtual List<ProductQuantity> Quantity { get; set; }
         public virtual List<EmiType> EmiType { get; set; }

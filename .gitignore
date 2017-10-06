@@ -2,3 +2,4 @@ App_Data
 obj
 /.vs/EOrg/v15/.suo
 /.vs/EOrg/v15/sqlite3/storage.ide
+/.vs/EOrg.sqlite

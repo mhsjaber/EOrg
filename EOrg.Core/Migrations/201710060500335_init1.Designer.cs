@@ -7,13 +7,13 @@ namespace EOrg.Core.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class temporary_test_1 : IMigrationMetadata
+    public sealed partial class init1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(temporary_test_1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(init1));
         
         string IMigrationMetadata.Id
         {
-            get { return "201709241829497_temporary_test_1"; }
+            get { return "201710060500335_init1"; }
         }
         
         string IMigrationMetadata.Source
